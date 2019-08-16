@@ -1,0 +1,200 @@
+html {
+	font-size: 0.625em;  
+}
+
+@media (max-width: 1200px){
+	.wrapper {
+        width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+    }
+}
+
+* {
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.structural {
+	position: absolute;
+	left: -9999px;
+}
+
+/* ===========================================
+   Body top
+   =========================================== */
+
+#Welkom {
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* ===========================================
+   Content
+   =========================================== */
+
+/* About, contact, instagram */
+
+#socials {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#socials a {
+    margin-top: 5rem; margin-bottom: 5rem;
+    margin-left: 1rem; margin-right: 1rem;
+    
+}
+
+#socials img {
+    max-width: 100%;
+}
+
+/* content */
+
+div .wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.contentNormal {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    margin: 3em;
+}
+
+
+.contentNormal .contentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contentReverse {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    margin: 2em;
+}
+
+.contentReverse .contentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.first {
+    text-transform: uppercase;
+    color: #111111;
+    letter-spacing: 0.3em;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 0.8em;
+}
+
+.title {
+    color: #222222;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 0.8em;
+}
+
+.text {
+    color: #69696E;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 2em;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 0.1em;
+    margin-top: 0.8em; margin-bottom: 2.5em;
+}
+
+div .readMore {
+    color: #D26328;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0.1em solid #C9C9C9;
+    padding: 1em;
+    letter-spacing: 0.2em;
+}
+
+/* ====================================================================================================================================================
+   Responsive
+   ================================================================================================================================================= */
+
+
+@media (max-width: 640px){
+    .wrapper img {
+        width: 100%;
+        height: auto;
+    }
+    #Pictures {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #Pictures a {
+        margin-top: 2rem; margin-bottom: 2rem;
+        margin-left: 2rem; margin-right: 2rem;
+    }
+    #socials {
+        background-color: #F8F8F8;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #socials a {
+        margin-top: 2rem; margin-bottom: 2rem;
+        margin-left: 1rem; margin-right: 1rem;
+        
+    }
+}
+
+@media (max-width: 740px){
+    .contentNormal {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .contentReverse{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .main .content {
+        margin-top: 2em; margin-bottom: 2em;
+        margin-left: 4%; margin-right: 4%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 92%;
+    }
+}
