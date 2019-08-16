@@ -1,21 +1,107 @@
+<!--
+    Project UX
+    Home page
+    Thomas Declerck
+    1MMPb
+    15/07/2019 
+-->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Styleguide</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/styleguide.css">
-</head>
-<body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
-</body>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <title>Eindopdracht UX</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+        <!-- header -->
+        <header>
+            <div>
+                <a href="home.html"><img src="./img/campus.jpg" alt="Sabroso" class="banner"></a>
+                <section class="header">
+                    <section class="logoMedia">
+                        <section class="headerMedia">
+                            <ul>
+                                <li><a href="https://www.facebook.com/odiseehogeschool/" class="leftIcon tablet" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                                <li><a href="https://twitter.com/odiseehogesch" class="tablet" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
+                                <li><a href="https://www.instagram.com/odisee/" class="tablet" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/odiseehogeschool" class="tablet" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></li>
+                            </ul>
+                        </section>
+                        <div id="logo">
+                            <h1><a href="home.html">Odisee</a></h1>
+                        </div>
+                        <section class="search">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="Search.." name="search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </section>
+                    </section>
+                    <nav>
+                        <h2 class="structural">Main menu</h2>
+                        <section class="mainMenu">
+                            <div class="navbar">
+                                <ul>
+                                    <button href="home.html" class="selected">Home</button>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Over Odisee<i class="fa fa-caret-down"></i></button>
+                                        <div class="dropdown-content">
+                                            <a href="#">Wij zijn Odisee</a>
+                                            <a href="#">Missie en strategie</a>
+                                            <a href="#">Odisee Live</a>
+                                            <a href="#">Wie is wie</a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </section>
+                    </nav>
+                </section>
+            </div>
+        </header>
+
+        <div contenteditable>
+            Welkom bij <span style="color: #D26328">O</span>disee
+        </div>
+
+        <section class="contentNormal">
+            <a href="#"><img src="./img/Fotos/campagnebeeld 640.png"></a>
+            <section class="contentText">
+                <p class="first">Overtuigd van je studiekeuze?</p>
+                <p class="text">Schrijf je in!</p>
+                <div><a href="#" class="readMore">Start je inschrijving!</a></div>
+            </section>
+        </section>
+
+        <section class="contentNormal">
+            <a href="#"><img src="./img/Fotos/werken en studeren2 640x640_1.jpg"></a>
+            <section class="contentText">
+                <a href="#" class="title">Studeren en werken combineren</a>
+                <p class="text">
+                    Wil jij je job blijven doen tot je 67ste, of heb je zin in een nieuwe uitdaging? Misschien ben je tevreden 
+                    met je job, maar heb je niet het juiste diploma? Of wil je je vakkennis verder uitdiepen? Voor al deze mogelijkheden 
+                    kun je terecht bij Odisee, waar je studeren kunt combineren met je job en/of je gezin. 
+                </p>
+                <div><a href="#" class="readMore">Read more</a></div>
+            </section>
+        </section>
+
+        <footer>
+            <section class="footerMedia">
+                <ul>
+                    <li><a href="https://www.facebook.com/odiseehogeschool/" class="leftIcon tablet" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                    <li><a href="https://twitter.com/odiseehogesch" class="tablet" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a href="https://www.instagram.com/odisee/" class="tablet" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/odiseehogeschool" class="tablet" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></li>
+                </ul>
+            </section>
+            <p>
+                Copyright ©2016 Odisee • All rights reserved.
+            </p>
+        </footer>
+    </body>
 </html>
